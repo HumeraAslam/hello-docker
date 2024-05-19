@@ -1,0 +1,20 @@
+[virtualenvs]
+create = false
+
+[tool.poetry]
+name = "hello-docker"
+version = "0.1.0"
+description = ""
+authors = ["Humera Aslam"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
