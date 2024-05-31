@@ -2,7 +2,7 @@
 create = false
 
 [tool.poetry]
-name = "hello-docker"
+name = "02_hello-docker"
 version = "0.1.0"
 description = ""
 authors = ["Humera Aslam"]
